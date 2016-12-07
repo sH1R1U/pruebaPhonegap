@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="es">
+<head>
+<title>Asegura tu cancha</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=no">
+	<link rel="stylesheet" href="css/jquery.mobile.min.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.mobile.min.js"></script>
+	<link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+
+	<!-- inicio  -->
+	<div data-role="page" id="inicio">
+		
+		<div data-role="header" data-theme="b">
+			<h1>Asegura tu cancha</h1>
+		</div>
+		
+		 <div data-role="content" id="contenedor" >
+		 	<h1 class="titulo" >Asegura tu cancha</h1>
+
+				<a href="#comunas" data-role="button" data-transition="flip" data-icon="comun">Comunas</a>
+				<br>
+				<a href="#horarios" data-role="button" data-icon="grid">Horarios</a>
+				<h6 size=2 class="letras" >Horarios de los centros deportivos</h6>
+				<a href="#ofertas" data-role="button" data-transition="flip" data-icon="forward">Ofertas</a>
+				<h6 size=2>Ofertas y descuentos para nuestros usuarios</h6>
+				<br>
+				<a href="#a" data-role="button" data-icon="delete">Salir</a>	
+			
+		 </div>
+	</div>
+	<!-- Fin pagina de inicio -->
+
+	<!-- inicio pagina Comunas -->
+
+	<div data-role="page" id="comunas">
+		<style>
+		#comunas
+			{
+				background-color:#008000;
+			}
+		</style>
+	
+		<div data-role="header" data-theme="b">
+			<h1>Asegura tu cancha</h1>
+		</div>
+		
+		<div data-role="content" id="contenedor">
+			<h2>Informacion de los centros deportivos</h3>
+
+
+			<ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeHolder="Busca tu centro deportivo">
+				<li data-role="list-divider" >Maipu</li>
+			
+					<li><a href="#don_oscar">Don oscar</a></li>
+					<li><a href="#">Centro 2</a></li>
+					<li><a href="#">Centro 3</a></li>
+					<li><a href="#">Centro 4</a></li>
+					<li><a href="#">Centro 5</a></li>
+					<li><a href="#">Centro 6</a></li>
+					<li><a href="#">Centro 7</a></li>
+					
+					
+
+			<br>
+				<li data-role="list-divider">La Cisterna</li>
+			
+			        <li><a href="#">Centro 1</a></li>
+					<li><a href="#">Centro 2</a></li>
+					<li><a href="#">Centro 3</a></li>
+					<li><a href="#">Centro 4</a></li>
+					<li><a href="#">Centro 5</a></li>
+					<li><a href="#">Centro 6</a></li>
+					<li><a href="#">Centro 7</a></li>
+					
+			</ul>
+
+			<a href="#inicio" data-role="button" data-transition="flip" data-icon="home">Inicio</a>
+			
+		</div>
+		</div>
+
+		<!-- Fin pagina Comunas -->
+	</div>
+    </div>
+    </div>
+
+    <!-- inicio pagina Horarios -->
+	<div data-role = "page" id="horarios" >
+
+		<div data-role="header" data-theme="b">
+			<h1>Horarios</h1>
+		</div>	
+
+		<ul data-role="listview" data-inset="true">
+			<br>
+			<br>
+				<li data-role="list-divider" >Maipu</li>
+			
+					<li>Centro 1</li>
+					<li>Centro 2</li>
+					<li>Centro 3</li>
+					<li>Centro 4</li>
+					<li>Centro 5</li>
+					<li>Centro 6</li>
+					<li>Centro 7</li>
+		</ul>
+
+		<a href="#inicio" data-role="button" data-transition="flip" data-icon="home">Inicio</a>
+	</div>
+		<!-- Fin pagina Horarios -->
+
+		<!-- inicio pagina Ofertas -->
+		<div data-role = "page" id="ofertas" >
+		<style>
+		#ofertas
+			{
+				background-color:#008000;
+			}
+		</style>
+
+		<div data-role="header" data-theme="b">
+			<h1>Ofertas</h1>
+		</div>	
+
+		<ul data-role="listview" data-inset="true" >
+			<br>
+			<br>			
+				<li>Descuento del 10% al reservar por primera vez con asegura tu cancha</li>
+				<li>al momento de realiar tu reserva mas de 4 veces en una semana reciviras 5% de descuento</li>
+				<li>Descuento mundialero solo por el mes de junio descuento 10% reservando en la aplicación</li>
+		</ul>
+
+		<a href="#inicio" data-role="button" data-transition="flip" data-icon="home">Inicio</a>
+	</div>
+
+	<!-- Fin pagina Ofertas -->
+
+<div data-role="page" id="don_oscar">
+		<style>
+		#don_oscar
+			{
+				background-color:#008000;
+			}
+		</style>
+	
+		<div data-role="header" data-theme="b">
+			<h1>Asegura tu cancha</h1>
+		</div>
+		
+		<div data-role="content" id="contenedor">
+			<h2>Informacion de centro deportivo Don Oscar</h3>
+
+			<ul data-role="listview" data-inset="true">
+
+			<a rel="external" href="oscar.html" data-role="button" data-transition="flip" data-icon="comun">Mapa</a>
+				
+			<img src="../plano.png" width="450px" height="320px" >
+
+    <p class="desc">Esta empresa es creada por un futbolista amateur de Maipú, el cual
+    con gusto por el futbol y la amistad ha llevado a cabo el proyecto de tener el
+	primer complejo deportivo de pasto sintético de Maipú. Nuestro complejo contempla
+	7 canchas de futbolito con las medidas oficiales en pasto sintético,
+	esto es 20 metros x 40 metros y con iluminación espectacular.
+    Además contamos con lujosos camarines acorde a las exigencias de estos
+    tiempos, tanto para hombres como para mujeres, modernos baños, galerías
+    para el público en general, casino donde podrás disfrutar de un tercer tiempo
+    junto a tus amigos, amplios e iluminados estacionamientos, juegos infantiles,
+    áreas verdes y la mejor seguridad. Invitamos a toda la comunidad
+    amante de este deporte que nos venga a conocer y disfrutar del
+    primer y mas moderno Complejo Deportivo de Maipú ubicado en pajaritos 4155,
+    esquina Americo Vespucio a pasos del Mall Arauco Maipú.</p>
+	
+			</ul>
+
+			<a href="#inicio" data-role="button" data-transition="flip" data-icon="home">Inicio</a>
+			
+		</div>
+		</div>		
+		</div>
+	</div>
+    </div>
+    </div>
+</body>
+</html>

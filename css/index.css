@@ -1,0 +1,29 @@
+#contenedor{
+	text-align: center;
+}
+
+#inicio	{
+	background-color: #008000;
+}
+
+#horarios {
+	background-color:#008000;
+	text-align: center;
+}
+
+h6 {
+	color: #F2F2F2;
+	font-size: 15px;
+	font: bold 90% monospace;
+}	
+
+h1.titulo {
+	color: #000000;
+	font-size: 30px;
+}
+
+.desc {
+	color: #F2F2F2;
+	font-size: 12px;
+	text-align: center;
+}
